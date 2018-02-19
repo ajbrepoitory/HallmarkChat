@@ -6,7 +6,7 @@
  */
 // Express application configuration
 const path = require('path');
-//const env = require('./config/config');
+const env = require('./config/config');
 const express = require('express');
 const socketIO = require('socket.io');
 const http = require('http');
@@ -18,7 +18,7 @@ const app = express();
 const httpSerevr = http.createServer(app);
 const io = socketIO(httpSerevr);
 var users = new Users();
-const port = process.env.PORT;
+const port = 8080;
 httpSerevr.listen(port, () => {
     console.log('App running on PORT : ', port);
 });
