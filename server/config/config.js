@@ -29,8 +29,8 @@ if (env === 'development') {
     process.env.PORT = 3000;
     process.env.MONGODB_URI = 'mongodb://localhost:27017/TodoAppTest';
 } else {
-    process.env.PORT = 3000;
-    process.env.MONGODB_URI = 'mongodb://mongoUser:MongoDB2018@ds233228.mlab.com:33228/mongo-crud-db';
+    //process.env.PORT = 3000;
+    //process.env.MONGODB_URI = 'mongodb://mongoUser:MongoDB2018@ds233228.mlab.com:33228/mongo-crud-db';
 }
 
 
