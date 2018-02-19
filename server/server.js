@@ -6,7 +6,7 @@
  */
 // Express application configuration
 const path = require('path');
-const env = require('./config/config');
+//const env = require('./config/config');
 const express = require('express');
 const socketIO = require('socket.io');
 const http = require('http');
